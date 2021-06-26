@@ -2,8 +2,8 @@
 
 // const randomText = document.getElementById("textBox");
 //  const goBtn = document.getElementById("go-btn");
-  let resultDiv = document.getElementById("parentDiv");
- const result = document.createElement("p");
+const resultDiv = document.getElementById("parentDiv");
+const result = document.createElement("p");
 
 // create a way for the words in any random sentence to be automatically capitalized.
 
@@ -20,12 +20,12 @@ function accumulate(text) {
              if (index > 0) { 
                const mumble = "-" + letter.charAt(0).toUpperCase() + letter.repeat(acc);
                result.innerText = mumble;
-               parentDiv.append(result);
+               resultDiv.append(result);
               
          } else {
                const mumble = letter.charAt(0).toUpperCase() + letter.repeat(acc);
                result.innerText = mumble;
-               parentDiv.append(result);
+               resultDiv.append(result);
              
          }
          
@@ -34,7 +34,7 @@ function accumulate(text) {
 }
     console.log(accumulate(randomText));
     
-    randomText = "jYfhesoKfjjsd";
+    const randomText = "jYfhesoKfjjsd";
 
     //console.log(accumulate(randomText));
 
