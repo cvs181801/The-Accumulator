@@ -15,22 +15,23 @@ function accumulate(text) {
     newArray = text
     .toLowerCase()
     .split('')
-    .forEach((letter, index) => {  
-            newArray = [];
+    .forEach((letter, index) => {       
                acc = index + 1;
+               letter.charAt(0).toUpperCase() + letter.repeat(acc);
+               console.log(newArray);
+            }
                
-               //const mumble = 
-               letter.charAt(0).toUpperCase() + letter.repeat(acc)
-               newArray.push(letter);
-               result.innerText = newArray.join("-");
-               resultDiv.append(result);
+               
+            //    newArray.push(letter);
+            //    result.innerText = newArray.join("-");
+            //    resultDiv.append(result);
         
               
         //  } else {
         //        const mumble = letter.charAt(0).toUpperCase() + letter.repeat(acc);
         //        result.innerText = mumble;
         //        resultDiv.append(result);      
-    })
+    )
     
 }
     //console.log(accumulate('hfiwhjdd'));
