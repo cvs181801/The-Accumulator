@@ -19,12 +19,12 @@ function accumulate(text) {
              acc = index + 1;
              if (index > 0) { 
               "-" + letter.charAt(0).toUpperCase() + letter.repeat(acc);
-              
+              console.log(newArray);
          } else {
              letter.charAt(0).toUpperCase() + letter.repeat(acc);
-            
+             console.log(newArray);
          }
-         console.log(newArray);
+         
     })
     
 }
