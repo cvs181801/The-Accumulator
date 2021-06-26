@@ -17,7 +17,8 @@ function accumulate(text) {
     .split('')
     .forEach((letter, index) => {       
                acc = index + 1;
-               letter.charAt(0).toUpperCase() + letter.repeat(acc);
+               const mumble = letter.charAt(0).toUpperCase() + letter.repeat(acc);
+               newArray.push(mumble);
                console.log(newArray);
             }
                
