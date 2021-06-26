@@ -12,6 +12,7 @@ let newArray = [];
 
 
 function accumulate(text) {
+    newArray = [];
     newArray = text
     .toLowerCase()
     .split('')
