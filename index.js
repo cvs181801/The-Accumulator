@@ -17,17 +17,17 @@ function accumulate(text) {
     .split('')
     .forEach((letter, index) => { 
              acc = index + 1;
-             if (index > 0) { 
+              
                const mumble = "-" + letter.charAt(0).toUpperCase() + letter.repeat(acc);
                result.innerText = mumble;
                resultDiv.append(result);
               
-         } else {
-               const mumble = letter.charAt(0).toUpperCase() + letter.repeat(acc);
-               result.innerText = mumble;
-               resultDiv.append(result);
+        //  } else {
+        //        const mumble = letter.charAt(0).toUpperCase() + letter.repeat(acc);
+        //        result.innerText = mumble;
+        //        resultDiv.append(result);
              
-         }
+          
          
     })
     
