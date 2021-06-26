@@ -12,8 +12,8 @@ let newArray = [];
 
 
 function accumulate(text) {
-    newArray.push(text);
-    console.log(newArray);
+    //newArray.push(text);
+    console.log("Hai");
     // acc = i + 1;
     // text.toLowerCase()
 
@@ -22,9 +22,9 @@ function accumulate(text) {
     //    }
      }
     
-    randomText = "jYfhesoKfjjsd";
+    //randomText = "jYfhesoKfjjsd";
 
-    console.log(accumulate(randomText));
+    //console.log(accumulate(randomText));
 
 
     //     resultDiv = document.getElementById("parentDiv");
