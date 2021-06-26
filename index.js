@@ -21,7 +21,7 @@ function accumulate(text) {
                
                //const mumble = 
                letter.charAt(0).toUpperCase() + letter.repeat(acc)
-               
+               newArray.push(letter);
                result.innerText = newArray.join("-");
                resultDiv.append(result);
         
