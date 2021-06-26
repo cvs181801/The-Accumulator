@@ -8,7 +8,7 @@
 // create a way for the words in any random sentence to be automatically capitalized.
 
 
-let newArray = [];
+let newArray = ['a','b','c,'];
 
 
 function accumulate(text) {
