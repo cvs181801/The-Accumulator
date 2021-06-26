@@ -19,7 +19,8 @@ function accumulate(text) {
                
                acc = index + 1;
                const result = document.createElement("p");
-               const mumble = letter.charAt(0).toUpperCase() + letter.repeat(acc)+ "-";
+               const mumble = letter.charAt(0).toUpperCase() + letter.repeat(acc);
+               newArray.join("-");
                result.innerText = mumble;
                resultDiv.append(result);
         
@@ -32,22 +33,7 @@ function accumulate(text) {
     
 }
     //console.log(accumulate(randomText));
-    
-    
-
-    //console.log(accumulate(randomText));
-
-
-    //     resultDiv = document.getElementById("parentDiv");
-    //     resultDiv.innerHTML="";
-    //          for (let i = 0; i < newArray.length; i++) {
-    //              const aWord = document.createElement('div')
-    //              aWord.textContent = newArray[i] + " ";
-    //              resultDiv.append(aWord)
-    //      }})      
-
-    // }
-
+   
 goBtn.addEventListener('click', function(e) {
     e.preventDefault();
     return (accumulate(randomText.value));
