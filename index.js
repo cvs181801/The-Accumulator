@@ -11,10 +11,11 @@
 let newArray = [];
 
 
-function accumulate(text) {
+function accumulate(text, index) {
     acc = index + 1;
     text.toLowerCase()
-       .forEach((letter, index) => { 
+    
+       .forEach((letter) => { 
            newArray.push("-" + letter.charAt(0).toUpperCase() + letter.repeat(acc))
        })
     }
