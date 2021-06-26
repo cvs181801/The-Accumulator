@@ -6,7 +6,7 @@ const resultDiv = document.getElementById("parentDiv");
 const result = document.createElement("p");
 
 // create a way for the words in any random sentence to be automatically capitalized.
-
+const randomText = "jYfhesoKfjjsd";
 
 let newArray = [];
 
@@ -34,7 +34,7 @@ function accumulate(text) {
 }
     console.log(accumulate(randomText));
     
-    const randomText = "jYfhesoKfjjsd";
+    
 
     //console.log(accumulate(randomText));
 
