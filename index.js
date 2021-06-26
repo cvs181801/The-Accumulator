@@ -18,10 +18,10 @@ function accumulate(text) {
     .forEach((letter, index) => {       
                acc = index + 1;
                const mumble = letter.charAt(0).toUpperCase() + letter.repeat(acc);
-               newArray.push(mumble)
-               .join("-");
+               newArray.push(mumble);
+               newArray.join("-");
                console.log(newArray);
-            }
+            })
                
                
             //    newArray.push(letter);
@@ -33,7 +33,7 @@ function accumulate(text) {
         //        const mumble = letter.charAt(0).toUpperCase() + letter.repeat(acc);
         //        result.innerText = mumble;
         //        resultDiv.append(result);      
-    )
+    
     
 }
     //console.log(accumulate('hfiwhjdd'));
