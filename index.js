@@ -16,14 +16,13 @@ function accumulate(text) {
     .toLowerCase()
     .split('')
     .forEach((letter, index) => { 
-        n = 0;
-        while (n < (newArray.length - 1)) {       
+               
                acc = index + 1;
                const result = document.createElement("p");
                const mumble = letter.charAt(0).toUpperCase() + letter.repeat(acc)+ "-";
                result.innerText = mumble;
                resultDiv.append(result);
-        }
+        
               
         //  } else {
         //        const mumble = letter.charAt(0).toUpperCase() + letter.repeat(acc);
