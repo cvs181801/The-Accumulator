@@ -13,6 +13,7 @@ let newArray = ['a','b','c,'];
 
 function accumulate(text) {
     newArray.push(text);
+    return newArray;
     //console.log(newArray);
     // acc = i + 1;
     // text.toLowerCase()
