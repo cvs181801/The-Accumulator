@@ -22,7 +22,7 @@ function accumulate(text) {
     //    }
     }
 
-    console.log(accumulate('yo'));
+    console.log(accumulate("yo"));
     
     //randomText = "jYfhesoKfjjsd";
 
