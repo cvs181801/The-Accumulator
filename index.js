@@ -1,12 +1,12 @@
 //grab the elements
 
-// const randomText = document.getElementById("textBox");
-//  const goBtn = document.getElementById("go-btn");
+let randomText = document.getElementById("textBox");
+const goBtn = document.getElementById("go-btn");
 const resultDiv = document.getElementById("parentDiv");
 
 
 // create a way for the words in any random sentence to be automatically capitalized.
-const randomText = "jYfhesoKfjjsd";
+//const randomText = "jYfhesoKfjjsd";
 
 let newArray = [];
 
@@ -31,7 +31,7 @@ function accumulate(text) {
     })
     
 }
-    console.log(accumulate(randomText));
+    //console.log(accumulate(randomText));
     
     
 
@@ -48,8 +48,8 @@ function accumulate(text) {
 
     // }
 
-// goBtn.addEventListener('click', function(e) {
-//     e.preventDefault();
-//     return (accumulate(randomText.value));
-// })
+goBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    return (accumulate(randomText.value));
+})
 
