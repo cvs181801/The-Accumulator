@@ -11,7 +11,7 @@
 let newArray = [];
 
 
-function accumulate(text, i) {
+function accumulate(text) {
     newArray.push(text);
     console.log(newArray);
     // acc = i + 1;
