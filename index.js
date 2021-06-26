@@ -17,7 +17,7 @@ function accumulate(text) {
     .toLowerCase().split('');
 
     //console.log(newArray);
-        for(letter of array) { 
+        for(letter of newArray) { 
             acc = [i] + 1;
             if ([i] > 0) {
             return "-" + letter.charAt(0).toUpperCase() + letter.repeat(acc)
