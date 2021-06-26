@@ -24,7 +24,7 @@ function accumulate(text) {
              letter.charAt(0).toUpperCase() + letter.repeat(acc);
             
          }
-         return newArray;
+         console.log(newArray);
     })
     
 }
