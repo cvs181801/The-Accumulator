@@ -25,7 +25,7 @@ function accumulate(text) {
             return letter.charAt(0).toUpperCase() + letter.repeat(acc)
         }
     }
-
+}
     console.log(accumulate("yoGtyjTj"));
     
     //randomText = "jYfhesoKfjjsd";
