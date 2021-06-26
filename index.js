@@ -17,13 +17,13 @@ function accumulate(text) {
     .split('')
     .forEach((letter, index) => { 
              acc = index + 1;
-             if (index > 0) {
-              
-             console.log( "-" + letter.charAt(0).toUpperCase() + letter.repeat(acc));
+             if (index > 0) { 
+              "-" + letter.charAt(0).toUpperCase() + letter.repeat(acc);
          } else {
-             console.log(letter.charAt(0).toUpperCase() + letter.repeat(acc))
+             letter.charAt(0).toUpperCase() + letter.repeat(acc);
          }
     })
+    return newArray;
 }
     console.log(accumulate("yoGtyjTj"));
     
