@@ -18,11 +18,13 @@ function accumulate(text) {
     .forEach((letter, index) => { 
                
                acc = index + 1;
-               const result = document.createElement("p");
-               const mumble = letter.charAt(0).toUpperCase() + letter.repeat(acc);
+               //const result = document.createElement("p");
+               //const mumble = 
+               letter.charAt(0).toUpperCase() + letter.repeat(acc);
                newArray.join("-");
-               result.innerText = mumble;
-               resultDiv.append(result);
+               console.log(newArray);
+            //    result.innerText = mumble;
+            //    resultDiv.append(result);
         
               
         //  } else {
@@ -34,8 +36,8 @@ function accumulate(text) {
 }
     //console.log(accumulate(randomText));
    
-goBtn.addEventListener('click', function(e) {
-    e.preventDefault();
-    return (accumulate(randomText.value));
-})
+// goBtn.addEventListener('click', function(e) {
+//     e.preventDefault();
+//     return (accumulate(randomText.value));
+// })
 
