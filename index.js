@@ -11,8 +11,8 @@ const resultDiv = document.getElementById("parentDiv");
 let newArray = ['h','g','d','s'];
 
 
-function accumulate(text) {
-    newArray = text
+function accumulate(newArray) {
+    newArray //= text
     .toLowerCase()
     .split('')
     .forEach((letter, index) => { 
@@ -22,7 +22,7 @@ function accumulate(text) {
                //const mumble = 
                letter.charAt(0).toUpperCase() + letter.repeat(acc);
                newArray.join("-");
-               console.log(newArray);
+               
             //    result.innerText = mumble;
             //    resultDiv.append(result);
         
@@ -41,3 +41,4 @@ function accumulate(text) {
 //     return (accumulate(randomText.value));
 // })
 
+console.log(newArray);
