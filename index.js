@@ -12,14 +12,14 @@ let newArray = [];
 
 
 function accumulate(text) {
+    acc = index + 1;
     text.toLowerCase()
-       .forEach((letter, index) => {
-           acc = index + 1;
-           newArray.push('-' + letter.charAt(0).toUpperCase() + letter.repeat(acc))
+       .forEach((letter, index) => { 
+           newArray.push("-" + letter.charAt(0).toUpperCase() + letter.repeat(acc))
        })
     }
     
-    randomText = "jYfhesoKfjjsd"
+    randomText = "jYfhesoKfjjsd";
 
     console.log(accumulate(randomText));
 
