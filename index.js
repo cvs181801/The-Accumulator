@@ -13,7 +13,7 @@ let newArray = ['a','b','c,'];
 
 function accumulate(text) {
     newArray.push(text);
-    console.log(newArray);
+    //console.log(newArray);
     // acc = i + 1;
     // text.toLowerCase()
 
@@ -21,6 +21,8 @@ function accumulate(text) {
     //        newArray.push("-" + letter.charAt(0).toUpperCase() + letter.repeat(acc))
     //    }
     }
+
+    console.log(accumulate('yo'));
     
     //randomText = "jYfhesoKfjjsd";
 
