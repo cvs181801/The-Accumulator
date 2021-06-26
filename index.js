@@ -12,19 +12,17 @@ let newArray = [];
 
 
 function accumulate(text) {
-    
     newArray = text
     .toLowerCase()
     .split('')
-
-    //console.log(newArray);
-        .forEach((letter, index) => { 
-            acc = index + 1;
-            if (index > 0) {
-            return "-" + letter.charAt(0).toUpperCase() + letter.repeat(acc)
-        } else {
-            return letter.charAt(0).toUpperCase() + letter.repeat(acc)
-        }
+    .forEach((letter, index) => { 
+        console.log(letter);
+        //     acc = index + 1;
+        //     if (index > 0) {
+        //     return "-" + letter.charAt(0).toUpperCase() + letter.repeat(acc)
+        // } else {
+        //     return letter.charAt(0).toUpperCase() + letter.repeat(acc)
+        // }
     })
 }
     console.log(accumulate("yoGtyjTj"));
