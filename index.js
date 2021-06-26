@@ -12,14 +12,18 @@ let newArray = [];
 
 
 function accumulate(text) {
-    //acc = i + 1;
+    
     newArray = text
     .toLowerCase().split('');
 
-    console.log(newArray);
-    //    for(letter of text) { 
-    //        newArray.push("-" + letter.charAt(0).toUpperCase() + letter.repeat(acc))
-    //    }
+    //console.log(newArray);
+        for(letter of array) { 
+            acc = [i] + 1;
+            if ([i] > 0) {
+            return "-" + letter.charAt(0).toUpperCase() + letter.repeat(acc)
+        } else {
+            return letter.charAt(0).toUpperCase() + letter.repeat(acc)
+        }
     }
 
     console.log(accumulate("yoGtyjTj"));
