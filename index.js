@@ -11,13 +11,14 @@
 let newArray = [];
 
 
-function accumulate(text, index) {
-    acc = index + 1;
+function accumulate(text, i) {
+    newArray.push(text);
+    acc = i + 1;
     text.toLowerCase()
-    
-       .forEach((letter) => { 
+
+       for(letter of text) { 
            newArray.push("-" + letter.charAt(0).toUpperCase() + letter.repeat(acc))
-       })
+       }
     }
     
     randomText = "jYfhesoKfjjsd";
