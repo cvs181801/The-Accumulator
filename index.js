@@ -14,8 +14,8 @@ let newArray = [];
 function accumulate(text) {
     //acc = i + 1;
     newArray = text
-    .split('')
-    .toLowerCase();
+    .split('');
+    //.toLowerCase();
 
     console.log(newArray);
     //    for(letter of text) { 
