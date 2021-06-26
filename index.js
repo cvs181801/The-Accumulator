@@ -8,12 +8,12 @@
 // create a way for the words in any random sentence to be automatically capitalized.
 
 
-let newArray = ['a','b','c,'];
+let newArray = [];
 
 
 function accumulate(text) {
     newArray.push(text);
-    return newArray;
+    console.log(newArray);
     //console.log(newArray);
     // acc = i + 1;
     // text.toLowerCase()
@@ -23,7 +23,7 @@ function accumulate(text) {
     //    }
     }
 
-    console.log(accumulate("yo"));
+    console.log(accumulate("yogtyjTj"));
     
     //randomText = "jYfhesoKfjjsd";
 
