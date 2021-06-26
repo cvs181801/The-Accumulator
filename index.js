@@ -19,28 +19,14 @@ function accumulate(text) {
                acc = index + 1;
                const mumble = letter.charAt(0).toUpperCase() + letter.repeat(acc);
                newArray.push(mumble);
-               console.log(newArray.join("-"));
-               
+               result.innerText = newArray.join("-");
+               resultDiv.append(result);
             })
-               
-               
-            //    newArray.push(letter);
-            //    result.innerText = newArray.join("-");
-            //    resultDiv.append(result);
-        
               
-        //  } else {
-        //        const mumble = letter.charAt(0).toUpperCase() + letter.repeat(acc);
-        //        result.innerText = mumble;
-        //        resultDiv.append(result);      
-    
-    
-}
-    //console.log(accumulate('hfiwhjdd'));
+        }
    
 goBtn.addEventListener('click', function(e) {
     e.preventDefault();
     return (accumulate(randomText.value));
 })
 
-//console.log(newArray);
