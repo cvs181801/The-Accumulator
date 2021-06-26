@@ -16,13 +16,13 @@ function accumulate(text) {
     .toLowerCase()
     .split('')
     .forEach((letter, index) => { 
-        console.log(letter);
-        //     acc = index + 1;
-        //     if (index > 0) {
-        //     return "-" + letter.charAt(0).toUpperCase() + letter.repeat(acc)
-        // } else {
-        //     return letter.charAt(0).toUpperCase() + letter.repeat(acc)
-        // }
+             acc = index + 1;
+             if (index > 0) {
+              
+             console.log( "-" + letter.charAt(0).toUpperCase() + letter.repeat(acc));
+         } else {
+             console.log(letter.charAt(0).toUpperCase() + letter.repeat(acc))
+         }
     })
 }
     console.log(accumulate("yoGtyjTj"));
