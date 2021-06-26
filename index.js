@@ -13,8 +13,8 @@ let newArray = [];
 
 function accumulate(text) {
     text.toLowerCase()
-       .forEach((letter) => {
-           acc = [i] + 1;
+       .forEach((letter, index) => {
+           acc = index + 1;
            newArray.push('-' + letter.charAt(0).toUpperCase() + letter.repeat(acc))
        })
     }
@@ -23,7 +23,7 @@ function accumulate(text) {
 
     console.log(accumulate(randomText));
 
-    
+
     //     resultDiv = document.getElementById("parentDiv");
     //     resultDiv.innerHTML="";
     //          for (let i = 0; i < newArray.length; i++) {
