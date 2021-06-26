@@ -12,18 +12,18 @@ let newArray = [];
 
 
 function accumulate(text) {
-    newArray.push(text);
-    console.log(newArray);
-    //console.log(newArray);
-    // acc = i + 1;
-    // text.toLowerCase()
+    //acc = i + 1;
+    newArray = text
+    .split('')
+    .toLowerCase();
 
+    console.log(newArray);
     //    for(letter of text) { 
     //        newArray.push("-" + letter.charAt(0).toUpperCase() + letter.repeat(acc))
     //    }
     }
 
-    console.log(accumulate("yogtyjTj"));
+    console.log(accumulate("yoGtyjTj"));
     
     //randomText = "jYfhesoKfjjsd";
 
